@@ -42,7 +42,7 @@ def load_files():
 
     scaler = joblib.load("models/scaler.pkl")
 
-    loader = DataLoader("data/Electricity_consumption.csv")
+    loader = DataLoader("data/Electricity_consumption_small.csv")
 
     df = loader.load_data()
 
